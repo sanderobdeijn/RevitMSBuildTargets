@@ -1,5 +1,5 @@
 ﻿<Project>
-  <Import Condition="RevitBaseImported != 'true'" Project="RevitBase.targets" />
+  <Import Condition="RevitBaseImported != 'true'" Project="Revit.Base.targets" />
 
   <ItemGroup Condition="'$(RevitVersion)' == '2015'">
     <PackageReference Include="Revit.RevitApiUI.x64" Version="2015.0.0" />
