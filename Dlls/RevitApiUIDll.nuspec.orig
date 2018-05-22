@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Revit.RevitApiUI.x64</id>
+    <version>[RevitVersion].0.0</version>
+    <authors>Sander Obdeijn</authors>
+    <owners>sanderobdeijn</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Revit [RevitVersion] RevitApiUI x64 dll</description>
+    <tags>Autodesk Revit Api UI [RevitVersion] x64</tags>
+  </metadata>
+  <files>
+    <file src="[RevitVersion]\RevitAPIUI.dll" target="lib\[NetVersion]" />
+  </files>
+</package>
