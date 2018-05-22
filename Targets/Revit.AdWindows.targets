@@ -1,0 +1,19 @@
+﻿<Project>
+  <Import Condition="RevitBaseImported != 'true'" Project="RevitBase.targets" />
+
+  <ItemGroup Condition="'$(RevitVersion)' == '2015'">
+    <PackageReference Include="Revit.AdWindows.x64" Version="2015.0.0" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(RevitVersion)' == '2016'">
+    <PackageReference Include="Revit.AdWindows.x64" Version="2016.0.0" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(RevitVersion)' == '2017'">
+    <PackageReference Include="Revit.AdWindows.x64" Version="2017.0.0" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(RevitVersion)' == '2018'">
+    <PackageReference Include="Revit.AdWindows.x64" Version="2018.0.0" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(RevitVersion)' == '2019'">
+    <PackageReference Include="Revit.AdWindows.x64" Version="2019.0.0" />
+  </ItemGroup>
+</Project>
