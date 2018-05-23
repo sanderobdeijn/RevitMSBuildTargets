@@ -1,5 +1,5 @@
 ﻿<Project>
-  <Import Condition="RevitBaseImported != 'true'" Project="Revit.Base.targets" />
+  <Import Condition="'$(RevitBaseImported)' == ''" Project="Revit.Base.targets" />
 
   <ItemGroup Condition="'$(RevitVersion)' == '2015'">
     <PackageReference Include="Revit.AdWindows.x64" Version="2015.0.0" />
