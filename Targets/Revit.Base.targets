@@ -7,27 +7,22 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(RevitVersion)' == '2015'">
-    <TargetFrameworks>net45</TargetFrameworks>
     <TargetFramework>net45</TargetFramework>
     <RevitConstants>R2015</RevitConstants>
   </PropertyGroup>
   <PropertyGroup Condition="'$(RevitVersion)' == '2016'">
-    <TargetFrameworks>net45</TargetFrameworks>
     <TargetFramework>net45</TargetFramework>
     <RevitConstants>R2016</RevitConstants>
   </PropertyGroup>
   <PropertyGroup Condition="'$(RevitVersion)' == '2017'">
-    <TargetFrameworks>net452</TargetFrameworks>
     <TargetFramework>net452</TargetFramework>
     <RevitConstants>R2017</RevitConstants>
   </PropertyGroup>
   <PropertyGroup Condition="'$(RevitVersion)' == '2018'">
-    <TargetFrameworks>net46</TargetFrameworks>
     <TargetFramework>net46</TargetFramework>
     <RevitConstants>R2018</RevitConstants>
   </PropertyGroup>
   <PropertyGroup Condition="'$(RevitVersion)' == '2019'">
-    <TargetFrameworks>net47</TargetFrameworks>
     <TargetFramework>net47</TargetFramework>
     <RevitConstants>R2019</RevitConstants>
   </PropertyGroup>

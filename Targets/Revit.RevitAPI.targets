@@ -2,18 +2,18 @@
     <Import Condition="RevitBaseImported != 'true'" Project="Revit.Base.targets" />
 
   <ItemGroup Condition="'$(RevitVersion)' == '2015'">
-    <PackageReference Include="RevitApi_2015" Version="2015.0.0" />
+    <PackageReference Include="Revit.RevitApi.x64" Version="2015.0.0" />
   </ItemGroup>
   <ItemGroup Condition="'$(RevitVersion)' == '2016'">
-    <PackageReference Include="RevitApi_2016" Version="2016.0.0" />
+    <PackageReference Include="Revit.RevitApi.x64" Version="2016.0.0" />
   </ItemGroup>
   <ItemGroup Condition="'$(RevitVersion)' == '2017'">
-    <PackageReference Include="RevitApi_2017" Version="2017.0.0" />
+    <PackageReference Include="Revit.RevitApi.x64" Version="2017.0.0" />
   </ItemGroup>
   <ItemGroup Condition="'$(RevitVersion)' == '2018'">
-    <PackageReference Include="RevitApi_2018" Version="2018.0.0" />
+    <PackageReference Include="Revit.RevitApi.x64" Version="2018.0.0" />
   </ItemGroup>
   <ItemGroup Condition="'$(RevitVersion)' == '2019'">
-    <PackageReference Include="RevitApi_2019" Version="2019.0.0" />
+    <PackageReference Include="Revit.RevitApi.x64" Version="2019.0.0" />
   </ItemGroup>
 </Project>
