@@ -2,13 +2,13 @@
 $nuspecOrigFilePaths = Split-Path -Path "*.orig" -Leaf -Resolve;
 
 $dllDirectories = Get-ChildItem -Path "" -Directory -Force -ErrorAction SilentlyContinue
-$netVersions = @{'2015'="net45";'2016'="net45";'2017'="net452";'2018'="net46";'2019'="net47"}
+$netVersions = @{'2015'="net45";'2016'="net45";'2017'="net452";'2018'="net46";'2019'="net47";'2020'="net472";'2021'="net48";'2022'="net48";'2023'="net48"}
 
 foreach ($dllDirectoryObject in $dllDirectories)
 {
     $revitversion = $dllDirectoryObject.PSChildName;
     $dllDirectoryPath = $dllDirectoryObject.FullName;
-    $netVersion = $netVersions["2015"];
+    $netVersion = $netVersions[$revitversion];
 
     foreach ($nuspecOrigFilePath in $nuspecOrigFilePaths)
     {
