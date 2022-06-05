@@ -16,4 +16,16 @@
   <ItemGroup Condition="'$(RevitVersion)' == '2019'">
     <PackageReference Include="Revit.RevitApiUI.x64" Version="2019.0.0" />
   </ItemGroup>
+  <ItemGroup Condition="'$(RevitVersion)' == '2020'">
+    <PackageReference Include="Revit.RevitApiUI.x64" Version="2020.0.0" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(RevitVersion)' == '2021'">
+    <PackageReference Include="Revit.RevitApiUI.x64" Version="2021.0.0" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(RevitVersion)' == '2022'">
+    <PackageReference Include="Revit.RevitApiUI.x64" Version="2022.0.0" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(RevitVersion)' == '2023'">
+    <PackageReference Include="Revit.RevitApiUI.x64" Version="2023.0.0" />
+  </ItemGroup>
 </Project>

@@ -26,6 +26,29 @@
     <TargetFramework>net47</TargetFramework>
     <RevitConstants>R2019</RevitConstants>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(RevitVersion)' == '2020'">
+    <TargetFramework>net472</TargetFramework>
+    <RevitConstants>R2020</RevitConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(RevitVersion)' == '2021'">
+    <TargetFramework>net48</TargetFramework>
+    <RevitConstants>R2021</RevitConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(RevitVersion)' == '2022'">
+    <TargetFramework>net48</TargetFramework>
+    <RevitConstants>R2022</RevitConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(RevitVersion)' == '2023'">
+    <TargetFramework>net48</TargetFramework>
+    <RevitConstants>R2023</RevitConstants>
+  </PropertyGroup>
+
+
+
+
+
+
+
 
   <PropertyGroup Condition="'$(Configuration)' == 'Debug' ">
     <DefineConstants>TRACE;DEBUG;$(RevitConstants)</DefineConstants>
